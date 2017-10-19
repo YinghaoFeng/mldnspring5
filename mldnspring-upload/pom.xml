@@ -8,7 +8,7 @@
 		<artifactId>mldnspring</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>mldnspring-springmvc</artifactId>
+	<artifactId>mldnspring-upload</artifactId>
 	<packaging>war</packaging>
 	<name>mldnspring-springmvc Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -44,7 +44,14 @@
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
